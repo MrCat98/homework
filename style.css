@@ -35,7 +35,7 @@
 
 
 body{
-    max-width:1080px;
+    max-width:2040px;
     margin: 0 auto;
     background-color:#EFF6FF;
     height: 1200px;
@@ -43,8 +43,8 @@ body{
 }
 
 .container{
-    width: 1000px;
-    height: 500px;
+    width: 1080px;
+    height: 700px;
     display:flex;
     gap: 0px;
     justify-content: center;
@@ -56,8 +56,8 @@ body{
 }
 
 .logotype{
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 700px;
     background-image: url(/bg.jpg);
     background-size: cover;
     background-position: center;
@@ -80,21 +80,20 @@ body{
  h1{
     color: #2A4A5C;
     font-family: 'barlow-light';
+    margin-left: 7px;
 }
 h2{
-    color: #2A4A5C;
-    font-family: 'barlow-light';
-}
-p{
-    margin-top: 8px;
-    color: #2A4A5C;
-    font-family: 'barlow-thin';
+    margin: 9px;
+    margin-right;
+    color: #96A5B1;
+    font-family:'barlow-light';
+    font-size:medium;
 }
 
 .facebook{
     display:inline-block;
-    width:235px;
-    height: 23px;
+    width:226px;
+    height: 27px;
     background-color:#255A9B;
     background-image: url(/facebook.svg);
     background-repeat: no-repeat;
@@ -102,13 +101,14 @@ p{
     background-position:10px;
     text-decoration: none;
     text-align:center;
-    padding-top:5px;
+    padding-top:12px;
     color: white;
 }
 .linkedin{
+    margin-left: 10px;
     display:inline-block;
-    width:235px;
-    height: 23px;
+    width:226px;
+    height: 27px;
     background-color:#0076B6;
     background-image: url(/linkedin.svg);
     background-repeat: no-repeat;
@@ -116,14 +116,53 @@ p{
     background-position:10px;
     text-decoration: none;
     text-align:center;
-    padding-top:5px;
+    padding-top:12px;
     color: white;
 }
 
 .registration-facebook-linkedin{
-    margin-top: 30px;
+    margin-top: 40px;
+}
+ul{
+    margin-left: 7px;
+    display: inline-block;
 }
 
-ul{
-    display: inline-block;
+.or{
+    font-family: 'barlow-light';
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.or::before,
+.or::after{
+    content:"";
+    width:100px;
+    border-bottom:0.1px solid #000;
+    margin:7px;
+   
+}
+
+.email{
+    display:inline-block;
+    border:0px;
+    border-left:2px  solid #0076B6;
+    border-radius: 0;
+    width:226px;
+    height: 30px;
+}
+
+.phone{
+    display:inline-block;
+    
+    border-left:2px  solid #0076B6;
+    border-radius: 0;
+    width:226px;
+    height: 30px;
+
 }
