@@ -1,34 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: 'barlow-thin';
     src: url(/Barlow-Thin.woff2)
     format('woff2');
+
+}
+
+@font-face {
     font-family: 'barlow-light';
     src: url(/Barlow-Light.woff2)
     format('woff2');
+    
+}
+@font-face {
     font-family: 'barlow-medium';
     src: url(/Barlow-Medium.woff2)
     format('woff2');
+}
+@font-face {
     font-family: 'barlow-regular';
     src: url(/Barlow-Regular.woff2)
     format('woff2');
+}
+@font-face {
     font-family: 'barlow-bold';
     src: url(/Barlow-Bold.woff2)
     format('woff2');
 }
 
 
+
 body{
-    max-width: 1080px;
+    max-width:1080px;
     margin: 0 auto;
-    background-color:#2b62a9;
+    background-color:#EFF6FF;
+    height: 1200px;
+    width: 1000;
 }
 
-main{
-    display: inline;
+.container{
+    width: 1000px;
+    height: 500px;
+    display:flex;
+    gap: 0px;
+    justify-content: center;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
 }
 
+.logotype{
+    width: 500px;
+    height: 500px;
+    background-image: url(/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
 .logo{
-    background-image: url
-    );
+    display: flex;
+    height: 90px;
+    width: 90px;
+    margin-left:20px;
+}
+.main-form{
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
 
+}
+ h1{
+    color: #2A4A5C;
+    font-family: 'barlow-light';
+}
+h2{
+    color: #2A4A5C;
+    font-family: 'barlow-light';
+}
+p{
+    margin-top: 8px;
+    color: #2A4A5C;
+    font-family: 'barlow-thin';
+}
+
+.facebook{
+    display:inline-block;
+    width:235px;
+    height: 23px;
+    background-color:#255A9B;
+    background-image: url(/facebook.svg);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position:10px;
+    text-decoration: none;
+    text-align:center;
+    padding-top:5px;
+    color: white;
+}
+.linkedin{
+    display:inline-block;
+    width:235px;
+    height: 23px;
+    background-color:#0076B6;
+    background-image: url(/linkedin.svg);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position:10px;
+    text-decoration: none;
+    text-align:center;
+    padding-top:5px;
+    color: white;
+}
+
+.registration-facebook-linkedin{
+    margin-top: 30px;
+}
+
+ul{
+    display: inline-block;
 }
