@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'barlow-thin';
+    src: url(/Barlow-Thin.woff2)
+    format('woff2');
+    font-family: 'barlow-light';
+    src: url(/Barlow-Light.woff2)
+    format('woff2');
+    font-family: 'barlow-medium';
+    src: url(/Barlow-Medium.woff2)
+    format('woff2');
+    font-family: 'barlow-regular';
+    src: url(/Barlow-Regular.woff2)
+    format('woff2');
+    font-family: 'barlow-bold';
+    src: url(/Barlow-Bold.woff2)
+    format('woff2');
+}
+
+
+body{
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color:#2b62a9;
+}
+
+main{
+    display: inline;
+}
+
+.logo{
+    background-image: url
+    );
+
+}
