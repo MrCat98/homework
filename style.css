@@ -49,8 +49,8 @@ body{
     gap: 0px;
     justify-content: center;
     background-color: white;
-   margin: 100px;
-    
+    margin: 70px;
+  
 }
 
 .logotype{
@@ -71,7 +71,7 @@ body{
 .main-form{
     width: 500px;
     height: 500px;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 70px;
 
 }
@@ -87,7 +87,7 @@ h2{
     font-size:medium;
 }
 .sub-title{
-    margin-top: 10px;
+    margin-top: 70px;
 }
 
 
@@ -107,7 +107,7 @@ h2{
 }
 
 .linkedin{
-    margin-left: 10px;
+    margin-left:12px;
     display:inline-block;
     width:226px;
     height: 27px;
@@ -124,11 +124,15 @@ h2{
 
 .registration-facebook-linkedin{
     margin-top: 40px;
+    
+
 }
 
 ul{
     margin-left: 7px;
-    display: inline-block;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .or{
@@ -147,7 +151,7 @@ ul{
     content:"";
     width:100px;
     border-bottom:0.1px solid #000;
-    margin:40px;
+    margin:20px;
    
 }
 
@@ -157,7 +161,6 @@ ul{
 .registration-numb{
     position: relative;
     display:inline-block;
-    margin: 40px 0;
 }
 .registration-email input{
     width: 210px;
@@ -169,7 +172,7 @@ ul{
     width: 210px;
     padding:14px 5px 6px;
     font-size: 16px;
-    margin-left: 20px;
+    margin-left: 12px;
 }
 
 .placeholder-email{
@@ -192,9 +195,13 @@ ul{
     display:flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bolt;
-    gap: 70px;
-    margin-top: 30px;
+    font-size: 14px;
+    gap: 60px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
 
-
+.term-of-service{
+    margin-top: 70px;
+}
 
