@@ -54,7 +54,7 @@ body{
 }
 
 .logotype{
-    width: 550px;
+    width: 540px;
     height: 800px;
     background-image: url(/bg.jpg);
     background-size: cover;
@@ -69,8 +69,10 @@ body{
     margin-left:50px;
 }
 .main-form{
-    width: 500px;
-    height: 500px;
+    display: inline-block;
+    padding: 0 auto;
+    width: 540px;
+    height: 800px;
     margin-left: 40px;
     margin-top: 70px;
 
@@ -192,8 +194,9 @@ ul{
     width: 210px;
     padding:14px 5px 6px;
     font-size: 16px;
-    margin-left: 12px;
+    margin-left: 16px;
     border:2px solid #EEEEEE;
+    border-radius: 0,1px;
     border-left: 3px solid #0076B6 ;
 }
 
@@ -208,7 +211,7 @@ ul{
 .placeholder-numb{
     position: absolute;
     top: 4px;
-    left: 30px;
+    left: 25px;
     font-size: 12px;
     color: #AFAFAF;
 }
@@ -224,33 +227,29 @@ ul{
     color: #2A4A5C;
 }
 
-.radio-text{
-    
-  
-}
 
 .term-of-service{
+    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin-top: 100px;
+    margin-left: ;
     color:#AFAFAF;
-    text-align:r;
+    
     
 }
 
 
 
 .create{
-    margin-top: 50px;
+    
+margin-top: 50px;
 width: 230px;
 height: 50px;
 background-color: #3698FB;
 color: #FFFFFF;
 font-size: 20px;
-border-radius: 8px;
+border-radius: 5px;
+border: 1px;
 
-}
-
-.radio:hover{
-    
 }
