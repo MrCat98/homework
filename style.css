@@ -225,6 +225,12 @@ ul{
     margin-top: 40px;
     margin-left: 20px;
     color: #2A4A5C;
+    position: relative;
+}
+
+.tooltiptext{
+    position:absolute
+    visibility:hidden
 }
 
 
@@ -235,7 +241,6 @@ ul{
     margin-top: 100px;
     color:#AFAFAF;
 }
-
 
 
 .create{
