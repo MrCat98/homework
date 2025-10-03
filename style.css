@@ -5,30 +5,30 @@
 
 @font-face {
     font-family: 'barlow-thin';
-    src: url(/Barlow-Thin.woff2)
+    src: url(./Barlow-Thin.woff2)
     format('woff2');
 
 }
 
 @font-face {
     font-family: 'barlow-light';
-    src: url(/Barlow-Light.woff2)
+    src: url(./Barlow-Light.woff2)
     format('woff2');
     
 }
 @font-face {
     font-family: 'barlow-medium';
-    src: url(/Barlow-Medium.woff2)
+    src: url(./Barlow-Medium.woff2)
     format('woff2');
 }
 @font-face {
     font-family: 'barlow-regular';
-    src: url(/Barlow-Regular.woff2)
+    src: url(./Barlow-Regular.woff2)
     format('woff2');
 }
 @font-face {
     font-family: 'barlow-bold';
-    src: url(/Barlow-Bold.woff2)
+    src: url(./Barlow-Bold.woff2)
     format('woff2');
 }
 
