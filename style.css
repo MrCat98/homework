@@ -5,30 +5,30 @@
 
 @font-face {
     font-family: 'barlow-thin';
-    src: url(./Barlow-Thin.woff2)
+    src: url(./font/Barlow-Thin.woff2)
     format('woff2');
 
 }
 
 @font-face {
     font-family: 'barlow-light';
-    src: url(./Barlow-Light.woff2)
+    src: url(./font/Barlow-Light.woff2)
     format('woff2');
     
 }
 @font-face {
     font-family: 'barlow-medium';
-    src: url(./Barlow-Medium.woff2)
+    src: url(./font/Barlow-Medium.woff2)
     format('woff2');
 }
 @font-face {
     font-family: 'barlow-regular';
-    src: url(./Barlow-Regular.woff2)
+    src: url(./font/Barlow-Regular.woff2)
     format('woff2');
 }
 @font-face {
     font-family: 'barlow-bold';
-    src: url(./Barlow-Bold.woff2)
+    src: url(./font/Barlow-Bold.woff2)
     format('woff2');
 }
 
@@ -56,7 +56,7 @@ body{
 .logotype{
     width: 540px;
     height: 800px;
-    background-image: url(./bg.jpg);
+    background-image: url(./jpg/bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ h4{
     width:226px;
     height: 27px;
     background-color:#255A9B;
-    background-image: url(./facebook.svg);
+    background-image: url(./jpg/facebook.svg);
     background-repeat: no-repeat;
     background-size:20px;
     background-position:10px;
@@ -131,7 +131,7 @@ h4{
     width:226px;
     height: 27px;
     background-color:#0076B6;
-    background-image: url(./linkedin.svg);
+    background-image: url(./jpg/linkedin.svg);
     background-repeat: no-repeat;
     background-size:20px;
     background-position:10px;
