@@ -201,7 +201,7 @@ ul{
     left: 10px;
     font-size: 12px;
     color:#AFAFAF;
-    margin: ;
+
 }
 
 
@@ -226,6 +226,7 @@ ul{
 }
 
 .tooltiptext{
+    font-family: "Barlow";
     margin-top: 20px;
     display: block;
     width: 220px;
@@ -233,7 +234,7 @@ ul{
     font-size: small;
     border-radius: 5px;
     border:1px solid rgb(236, 230, 230);
-    padding:10px;
+    padding:7px;
     color:#AFAFAF;
 }
 
