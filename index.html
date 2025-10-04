@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
 
-        <section class="logotype">
-            <img class="logo" src="./jpg/logo.svg" alt="logo-IInto">
-        </section>
+    <form> 
+        <div class="container">
+
+            <section class="logotype">
+                <img class="logo" src="./jpg/logo.svg" alt="logo-IInto">
+            </section>
 
         <main class="main-form">
 
@@ -26,54 +28,46 @@
                 <li><a class="linkedin" href="">Register with Linkedin</a></li>
             </ul>
             <p class="or">OR</p>
-            <ul class="registration">
-                <form class="registration-email">
+            <div class="registration">
+                <div class="registration-email">
                 <span class="placeholder-email">Email</span>
                 <input class="email" type="email" name="reg" id="email">
-                </form>
-                <form class="registration-numb">
+                </div>
+                <div class="registration-numb">
                 <span class="placeholder-numb">Phone</span>
                 <input class="phone" type="number" name="phone">
-                </form>
-            </ul>
+                </div>
+            </div>
             <header class="sub-title">
-            <h3 >What type of are you?</h3>
-            <h4 >Select the type of investor you are below</h4>
+                <h3 >What type of are you?</h3>
+                <h4 >Select the type of investor you are below</h4>
             </heder>
-            <form class="radio-button">
-                <label>
-                <input class="radio" type="radio" name="individual">
-                <span class="radio-text">Individual</span>
-                </label>
-                <label>
-                <input class="radio" type="radio" name="Business">
-                <span>Business</span>
-                </label>
-                <label>
-                <input class="radio" type="radio" name="IRA">
-                <span>IRA</span> 
-                </label>
-                <label>
-                <input class="radio" type="radio" name="Trust">
-                <span>Trust</span>
-                </label>
-            </form>
+            <div class="radio-button">
+                <input type="radio" name="investor" value="Individual" id="radio-Individual">
+                    <label for="radio-Individual">Individual</label>
+                <input type="radio" name="investor" value="Business" id="radio-business">
+                    <label for="radio-business">Business</label>
+                <input type="radio" name="investor" value="IRA" id="radio_ira">
+                    <label for="radio_ira">IRA</label>
+                <input type="radio" name="investor" value="Trust" id="radio-investor">
+                    <label for="radio-investor">Investor</label>
+            </div>
             <div class="tooltiptext">I am a natural person investing on my
                 own behalf as a sole owner, joint tenant,
                 or tenant in common.</div>
         </section>
 
-            <footer class="term-of-service">
+            <div class="term-of-service">
                 <input type="checkbox">
                 <span class="-text-service">lagree to the terms and receiving notifications from iintoo</span>
-                <a href="">View full terms</a>
-                </span>
-                
+                <a href="">View full terms</a></span>
+            </div>
         <label class="button">
                 <input class="create" type="button" name="create" value="Create Account">
          </label>
         </main>
-
+        
+   </form>
 
     </div>
 </body>
