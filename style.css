@@ -45,6 +45,10 @@ body{
     background-color:#EFF6FF;
 }
 
+form{
+    margin: 70px;
+}
+
 .container{
     width: 1080px;
     height: 800px;
@@ -52,7 +56,6 @@ body{
     gap: 0px;
     justify-content: center;
     background-color: white;
-    margin-top:70px;
     font-family: 'Barlow';
   
 }
@@ -177,10 +180,12 @@ ul{
 .registration-numb{
     position: relative;
     display:inline-block;
-    
     border-radius: 0,1px;
 }
-.registration-email input{
+
+.registration-email input,
+.registration-numb input
+{
     width: 210px;
     padding:14px 5px 6px;
     font-size: 16px;
@@ -188,31 +193,22 @@ ul{
     border-left: 3px solid #0076B6 ;
 }
 
-.registration-numb input{
-    width: 210px;
-    padding:14px 5px 6px;
-    font-size: 16px;
-    margin-left:10px;
-    border:2px solid #EEEEEE;
-    border-left: 3px solid #0076B6 ;
-   
-}
 
-.placeholder-email{
+.placeholder-email,
+.placeholder-numb{
     position: absolute;
     top: 4px;
     left: 10px;
     font-size: 12px;
     color:#AFAFAF;
+    margin: ;
 }
 
+
 .placeholder-numb{
-    position: absolute;
-    top: 4px;
-    left: 25px;
-    font-size: 12px;
-    color: #AFAFAF;
+    margin-left:9px;
 }
+
 
 .radio-button{
     margin-left: 40px;
