@@ -53,7 +53,7 @@ body{
     justify-content: center;
     background-color: white;
     margin-top:70px;
-    font-family: 'Barlow',sans-serif;
+    font-family: 'Barlow';
   
 }
 
@@ -82,11 +82,12 @@ body{
 
 }
 
-
+h1 h2 h3 h4{
+    font-family: "Barlow";
+}
 
  h1{
     color: #7B8A92;
-    font-family: 'Barlow',sans-serif;
    margin-left: 7px;
    font-size: 25px;
 }
@@ -94,56 +95,46 @@ body{
 h2{
     margin: 9px;
     color: #96A5B1;
-    font-family:'barlow-thin',sans-serif;
-    font-size:16px;
+    font-size:15px;
 }
 
 h3{
     color: #7B8A92;
-    font-family: 'barlow-light',sans-serif;
     font-size: 25px;
 }
 
 h4{
     color: #7B8A92;
-    font-family: 'barlow-thin',sans-serif;
     font-size: 13px;
 }
 .sub-title{
     margin-top: 40px;
 }
 
+.reg{
+    font-family: "Barlow";
+     width:226px;
+    height: 30px;
+    display:inline-box;
+    color: #FFFFFF;
+    background-size:20px;
+    background-repeat: no-repeat;
+    background-position: 12px;
+    border: 1px;
+    
+}
 
 .facebook{
-    display:inline-block;
-    width:226px;
-    height: 27px;
     background-color:#255A9B;
     background-image: url(./jpg/facebook.svg);
-    background-repeat: no-repeat;
-    background-size:20px;
-    background-position:10px;
-    background-position: 5px;
-    text-decoration: none;
-    text-align:center;
-    padding-top:12px;
-    color: #FFFFFF;
 }
 
 .linkedin{
     margin-left:12px;
-    display:inline-block;
-    width:226px;
-    height: 27px;
     background-color:#0076B6;
     background-image: url(./jpg/linkedin.svg);
-    background-repeat: no-repeat;
-    background-size:20px;
-    background-position:10px;
-    text-decoration: none;
-    text-align:center;
-    padding-top:12px;
-    color: #FFFFFF
+    
+   
 }
 
 .registration-facebook-linkedin{
@@ -160,7 +151,7 @@ ul{
 }
 
 .or{
-    font-family: 'barlow-light';
+    font-family: 'Barlow';
     display:inline-flex;
     align-items: center;
     text-align: center;
@@ -168,6 +159,7 @@ ul{
     color: #2A4A5C;
     margin-top: 30px;
     margin-bottom: 40px;
+    margin-left: 100px;
 }
 
 .or::before,
@@ -185,13 +177,14 @@ ul{
 .registration-numb{
     position: relative;
     display:inline-block;
+    
+    border-radius: 0,1px;
 }
 .registration-email input{
     width: 210px;
     padding:14px 5px 6px;
     font-size: 16px;
     border:2px solid #EEEEEE;
-    border-radius: 0,1px;
     border-left: 3px solid #0076B6 ;
 }
 
@@ -199,10 +192,10 @@ ul{
     width: 210px;
     padding:14px 5px 6px;
     font-size: 16px;
-    margin-left: 16px;
+    margin-left:10px;
     border:2px solid #EEEEEE;
-    border-radius: 0,1px;
     border-left: 3px solid #0076B6 ;
+   
 }
 
 .placeholder-email{
@@ -222,13 +215,16 @@ ul{
 }
 
 .radio-button{
+    margin-left: 40px;
+}
+
+.radio{
     font-family: "Barlow";
-    display: inline-flex;
+    display: inline-box;
     font-weight:normal;
     font-size: 15px;
     gap:30px;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 20px;
     color: #2A4A5C;
     position: relative;
 }
@@ -248,7 +244,7 @@ ul{
 
 .term-of-service{
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Barlow";
     font-size: 12px;
     margin-top: 30px;
     color:#AFAFAF;
